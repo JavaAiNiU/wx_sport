@@ -1,0 +1,15 @@
+<!--pages/RT_display/RT_display.wxml-->
+
+<view class='viewclass'>
+    
+    <text class='test'>{{show}}</text>         
+    <button class='buttonclass' bindtap='start'>{{startSport}}</button>
+    <button class='buttonclass' bindtap='stop'>结束运动</button>
+
+
+    <view class='text'>里程：{{distance}}</view>          <!--单位：m-->
+    <view class='text'>卡路里：{{calorie}}</view>         <!--单位：-->
+    <view class='text'>速度：{{speed}}</view>             <!--m/s-->
+    <view class='text'>坡度：{{gradient}}</view>          <!--度-->
+
+</view>

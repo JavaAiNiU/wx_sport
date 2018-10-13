@@ -1,0 +1,14 @@
+<!--pages/diasplay/display.wxml-->
+<view class='displayclass'>
+  <view>搭建界面ing</view>
+  <view>
+    <button bindtap='SportTime'>运动时间</button>
+    <button bindtap='Distance'>里程</button>
+    <button bindtap='Calorie'>卡路里</button>
+  </view> 
+
+<canvas class="canvas" canvas-id="myCanvas" disable-scroll='true' bindtouchstart="touchHandler" bindtouchmove="moveHandler" bindtouchend="touchEndHandler"></canvas>
+   <!-- <view class="canvasview"></view>-->
+   
+  <view>{{show}}</view>
+ </view>

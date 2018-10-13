@@ -1,0 +1,32 @@
+/* pages/RT_display/RT_display.wxss */
+.viewclass{
+  position: fixed;
+  height: 100%;
+  width:100%;
+  border:solid 0px black;
+}
+.text{
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.myCanvas{
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border:solid 1px black;
+}
+.canvasclass{
+  height: 50%;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.buttonclass{
+  height: 8%;
+  width:100%;
+}

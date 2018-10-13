@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/history_display/display",
+    "pages/RT_display/RT_display"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#ff00ff",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "梦醒",
+    "navigationBarTextStyle": "black"
+  }
+}
